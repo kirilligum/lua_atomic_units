@@ -1,6 +1,7 @@
 ----------------------------------------
 ----------------------------------------
 ------ Atomic units (from http://en.wikipedia.org/wiki/Atomic_units )
+------ electron mass = elementary charge = reduced Planck's constant = Coulomb's constant = 1
 ----------------------------------------
 ---- Fundamental atomic units in SI
 -- mass
@@ -31,4 +32,9 @@ atomic_pressure = 2.942191219e13; -- Pa  ;
 atomic_electric_field = 5.1422065211e11; --  V*m^(-1);
 -- electric dipole moment
 atomic_electric_dipole_moment = 8.4783532619e-30; --  C*m;
-
+----------------------------------------
+---- Physical constants in atomic units
+atomic_speed_of_light = 137;
+classical_electron_radius = 5.32e-5;
+proton_mass = 1836;
+boltzmann_constant = 3.166811429e-6; -- E_h/K ; from http://en.wikipedia.org/wiki/Boltzmann_constant
