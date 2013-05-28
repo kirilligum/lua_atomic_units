@@ -17,7 +17,9 @@ Coulomb_force_constant =   8.9875517873681e9; -- kg*m^3*s^(-2)*C-^(-2);
 fine_structure_constant = 1/137;
 classical_electron_radius = 5.32e-5;
 proton_mass = 1836;
-boltzmann_constant = 3.166811429e-6; -- E_h/K ; from http://en.wikipedia.org/wiki/Boltzmann_constant
+----------------------------------------
+---- Physical constants in SI
+boltzmann_constant = 1.3806488e-23; -- J/K ; from http://en.wikipedia.org/wiki/Boltzmann_constant
 ----------------------------------------
 ---- Derived atomic units in SI
 -- length
@@ -55,5 +57,6 @@ atomic_electric_dipole_moment = elementary_charge*bohr_radius; --  C*m;
 --ev = 0.03674932; -- (*"hartrees"*)
 ev = elementary_charge/hartree_energy; -- J/C*e (*"hartrees"*)
 --speed_of_light = 299792458; -- m*s^(-1)
-speed_of_light = elementary_charge^2*Coulomb_force_constant/(reduced_Plancks_constant*fine_structure_constant); -- m*s^(-1)
-i_cm = atomic_time/speed_of_light; -- reciprocal centimetre to Hz to atomic_time^(-1)
+speed_of_light = elementary_charge^2*Coulomb_force_constant/(reduced_Plancks_constant*fine_structure_constant); -- m*s^(-1) in SI units
+--i_cm = atomic_time/speed_of_light; -- reciprocal centimetre to Hz to atomic_time^(-1)
+i_cm = 1.23984e-4*ev; -- reciprocal centimetre to Hz to atomic_time^(-1)
