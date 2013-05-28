@@ -19,7 +19,7 @@ bohr_radius =    5.291772085936e-11; -- m  ;
 -- energy
 hartree_energy =     4.3597441775e-18; -- J ;
 -- time
-atomic_time =    2.41888432650516-e17; -- s;
+atomic_time =    2.41888432650516e-17; -- s;
 -- velocity
 atomic_velocity = 2.187691263373e6; -- m*s^(-1);
 -- force
